@@ -1,0 +1,2 @@
+REPOSITORY = "megaphone"
+REVIEWBOARD_URL = 'http://reviewboard.retickr.com'
