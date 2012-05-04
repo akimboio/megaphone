@@ -1,0 +1,13 @@
+=========
+Megaphone
+=========
+
+Overview
+--------
+This project will take a POST variable to a RESTful interface and
+yield an mp3 file which is the Text To Speech representation of that
+string.
+
+Authors
+-------
+Adam Haney <adam.haney@retickr.com>, Michael Bentley <michael.bentley@retickr.com>
