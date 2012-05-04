@@ -1,4 +1,4 @@
-from django.conf.urls import patterns, include, url
+from django.conf.urls import url, patterns
 from megaphone.tts import views
 
 # Uncomment the next two lines to enable the admin:
@@ -7,5 +7,5 @@ from megaphone.tts import views
 
 urlpatterns = patterns(
     '',
-    url(r'^tts$', views.tts)
+    url(r'(?i)^tts/(?P<format>(aaif|wave|mp4f))$', views.tts)
 )
