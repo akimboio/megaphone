@@ -16,7 +16,7 @@ def tts(request, format="mp4f"):
         }
 
     # Grab the string that we wish to encode to audio
-    encode_string = request.REQUEST["string"] + " hack"
+    encode_string = request.REQUEST["string"] 
 
     # Create a temporary file name for the audio file
     tmp_file = "/tmp/{0}.{1}".format(str(uuid.uuid4()), format_conversions[format][1])

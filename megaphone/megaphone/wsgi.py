@@ -14,6 +14,9 @@ framework.
 
 """
 import os
+import sys
+
+sys.path.append('/var/www/megaphone/megaphone/')
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "megaphone.settings")
 

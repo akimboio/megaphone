@@ -7,5 +7,5 @@ from megaphone.tts import views
 
 urlpatterns = patterns(
     '',
-    url(r'(?i)^tts/(?P<format>(aaif|wave|mp4f))$', views.tts)
+    url(r'^tts/(?P<format>(aaif|wave|mp4f))$', views.tts)
 )
